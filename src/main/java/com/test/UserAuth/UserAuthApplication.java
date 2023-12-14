@@ -15,7 +15,7 @@ public class UserAuthApplication implements CommandLineRunner{
 	UserAuthenticationRepository userAuthenticationRepository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserAuthApplication.class, args); 
+		SpringApplication.run(UserAuthApplication.class, args);
 	}
 
 	@Override
