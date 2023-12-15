@@ -73,6 +73,16 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-maven-plugin</artifactId>
+            <version>9.22.3</version>
+            <configuration>
+                <url>jdbc:mysql://localhost:3306/TodoAuthDB</url>
+                <user>root</user>
+                <password>root</password>
+            </configuration>
+        </plugin>
 		</plugins>
 	</build>
 
